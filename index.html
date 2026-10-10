@@ -5,18 +5,126 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>سياسة الخصوصية — WA Deleted Vault</title>
 <style>
-body{font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.9;color:#1f2937;background:#fff}h1,h2{line-height:1.4}h1{margin-bottom:6px}.meta{color:#6b7280;margin-bottom:28px}section{margin:26px 0}a{color:#075985}code{direction:ltr}
+:root{
+  --primary:#087cff;
+  --secondary:#12cfe3;
+  --dark:#12304f;
+  --text:#26364a;
+  --muted:#68778a;
+  --bg:#f5f8fc;
+  --card:#ffffff;
+  --border:#e4ebf3;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:linear-gradient(180deg,#eef6ff 0,#f8fafc 300px);
+  color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;
+  line-height:1.9;
+}
+.container{
+  max-width:950px;
+  margin:40px auto;
+  padding:20px;
+}
+.hero{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:28px;
+  text-align:center;
+  padding:45px 25px;
+  box-shadow:0 12px 35px rgba(15,35,60,.08);
+}
+.logo{
+  width:130px;
+  height:130px;
+  border-radius:28px;
+}
+h1{
+  color:var(--dark);
+  font-size:38px;
+  margin:15px 0 5px;
+}
+.subtitle{
+  color:var(--muted);
+  font-size:18px;
+}
+.badges{
+  margin-top:20px;
+}
+.badge{
+  display:inline-block;
+  background:#e9f6ff;
+  color:#0864bd;
+  border-radius:30px;
+  padding:6px 16px;
+  margin:5px;
+  font-size:14px;
+}
+section{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:22px;
+  padding:28px;
+  margin-top:22px;
+  box-shadow:0 6px 20px rgba(15,35,60,.04);
+}
+h2{
+  color:var(--primary);
+  font-size:23px;
+  margin-top:0;
+}
+footer{
+  text-align:center;
+  padding:35px;
+  color:var(--muted);
+}
+a{color:var(--primary)}
 </style>
 </head>
 <body>
-<h1>سياسة الخصوصية — WA Deleted Vault</h1>
-<p class="meta">الإصدار 1.0 — آخر تحديث: 1 أكتوبر 2026</p>
-<section><h2>1. الغرض</h2><p>الغرض الوحيد من WA Deleted Vault هو إنشاء أرشيف محلي على جهاز المستخدم لرسائل ووسائط وملفات وصلت إلى WhatsApp Web، حتى يمكن للمستخدم عرض النسخة المحلية إذا حُذف المحتوى لاحقًا، وكذلك الاحتفاظ بسجل محلي لنسخ الرسائل النصية عند تعديلها إذا كان خيار التقاط التعديلات مفعّلًا.</p></section>
-<section><h2>2. البيانات التي تصل إليها الإضافة</h2><p>بعد موافقة المستخدم وتفعيل الأرشفة، قد تصل الإضافة إلى نصوص الرسائل وأسماء المحادثات وجهات الاتصال والوسائط والملفات وبيانات تقنية مرتبطة بها، مثل وقت الرسالة ونوع الملف ومعرّف الرسالة. وعند تفعيل التقاط التعديلات، تُحفظ النسخة السابقة والنسخة الجديدة لكل تعديل نصي. هذا الوصول ضروري فقط لتنفيذ وظيفة الأرشفة المحلية التي يطلبها المستخدم.</p></section>
-<section><h2>3. التخزين والاستخدام</h2><p>تُخزن العناصر المؤرشفة محليًا في مساحة تخزين الإضافة على جهاز المستخدم. تُستخدم البيانات فقط لعرض الأرشيف المحلي ومنع التكرار وإدارة الوسائط وتشخيص عمل المراقبة داخل الإضافة. مدة الاحتفاظ التلقائي الحالية هي 7 أيام.</p></section>
-<section><h2>4. الإرسال والمشاركة</h2><p>لا ترسل هذه النسخة من الإضافة محتوى الرسائل أو الوسائط أو الملفات إلى خوادم المطور، ولا تستخدم خدمات تحليلات أو إعلانات، ولا تبيع أو تشارك المحتوى المؤرشف مع أطراف ثالثة. قد تقرأ الإضافة الوسائط من المصادر التي يتيحها WhatsApp Web داخل جلسة المستخدم بهدف حفظ النسخة المحلية.</p></section>
-<section><h2>5. تحكم المستخدم</h2><p>لا تبدأ الأرشفة قبل موافقة المستخدم الصريحة من شاشة البدء. خيار التقاط تعديلات الرسائل مفعّل افتراضيًا ويمكن تعطيله من نافذة الإضافة. يمكن للمستخدم حذف عناصر فردية، حذف عدة عناصر، أو مسح الأرشيف بالكامل من واجهة الإضافة. ويمكن إيقاف وصول الإضافة إلى WhatsApp Web بتعطيلها أو إزالتها من صفحة إضافات Microsoft Edge.</p></section>
-<section><h2>6. الأمان والقيود</h2><p>تعتمد الإضافة على التخزين المحلي الذي يوفره Microsoft Edge، ولا تنشئ حساب مستخدم ولا تجمع كلمات مرور. لا تستطيع استعادة محتوى لم يصل إلى المتصفح قبل الحذف. وقد تتأثر بعض الوظائف بتغييرات WhatsApp Web المستقبلية.</p></section>
-<section><h2>7. الأطراف والعلامات التجارية</h2><p>WA Deleted Vault منتج مستقل وغير تابع لـ WhatsApp LLC أو Meta Platforms, Inc. أسماء الجهات والمنتجات المذكورة تخص مالكيها وتُستخدم فقط لبيان التوافق والوظيفة.</p></section>
-<section><h2>8. تحديثات السياسة والتواصل</h2><p>يجب تحديث هذه السياسة إذا تغيّرت طريقة وصول الإضافة إلى البيانات أو استخدامها أو مشاركتها.</p></section>
-</body></html>
+<div class="container">
+
+<header class="hero">
+<img class="logo" src="logo.png" alt="WA Deleted Vault">
+<h1>WA Deleted Vault</h1>
+<div class="subtitle">سياسة الخصوصية — الإصدار 1.0</div>
+<div class="badges">
+<span class="badge">تخزين محلي</span>
+<span class="badge">بدون خوادم خارجية</span>
+<span class="badge">خصوصية المستخدم</span>
+</div>
+</header>
+
+<section><h2>1. الغرض</h2>
+<p>الغرض الوحيد من WA Deleted Vault هو إنشاء أرشيف محلي على جهاز المستخدم لرسائل ووسائط وملفات وصلت إلى WhatsApp Web، حتى يتمكن المستخدم من عرض النسخة المحلية عند حذف المحتوى أو تعديله.</p></section>
+
+<section><h2>2. البيانات التي تصل إليها الإضافة</h2>
+<p>قد تصل الإضافة إلى نصوص الرسائل، أسماء المحادثات، جهات الاتصال، الوسائط، الملفات، وبيانات تقنية مرتبطة بالرسائل. يستخدم هذا الوصول فقط لتنفيذ وظيفة الأرشفة التي يفعّلها المستخدم.</p></section>
+
+<section><h2>3. التخزين والاستخدام</h2>
+<p>يتم تخزين جميع العناصر المؤرشفة محلياً داخل المتصفح على جهاز المستخدم. لا يتم رفع محتوى الرسائل أو الملفات إلى خوادم خارجية.</p></section>
+
+<section><h2>4. الإرسال والمشاركة</h2>
+<p>لا ترسل WA Deleted Vault محتوى الرسائل أو الوسائط إلى المطور أو أطراف ثالثة، ولا تستخدم الإعلانات أو خدمات التحليل.</p></section>
+
+<section><h2>5. تحكم المستخدم</h2>
+<p>يمكن للمستخدم حذف عناصر فردية أو متعددة أو مسح الأرشيف بالكامل. كما يمكنه تعطيل الإضافة أو إزالتها في أي وقت.</p></section>
+
+<section><h2>6. الأمان والقيود</h2>
+<p>لا تنشئ الإضافة حسابات مستخدمين ولا تجمع كلمات مرور. تعتمد الوظائف على البيانات المتاحة داخل WhatsApp Web وقد تتأثر بتغييرات الخدمة المستقبلية.</p></section>
+
+<section><h2>7. العلامات التجارية</h2>
+<p>WA Deleted Vault منتج مستقل وغير تابع لـ WhatsApp LLC أو Meta Platforms, Inc.</p></section>
+
+<section><h2>8. تحديثات السياسة والتواصل</h2>
+<p>قد يتم تحديث هذه السياسة عند تغيير طريقة عمل الإضافة أو طريقة تعاملها مع البيانات.</p></section>
+
+<footer>
+© Moath Studios — WA Deleted Vault
+</footer>
+
+</div>
+</body>
+</html>
